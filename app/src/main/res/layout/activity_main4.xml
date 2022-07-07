@@ -16,7 +16,7 @@
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/weight"
+        android:id="@+id/age"
         android:hint="in kg (zb. 80)"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/height"
+        android:id="@+id/bmilol"
         android:layout_width="228dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="25dp"
-        android:onClick="calculateBMI"
+        android:onClick="calculateIdeal"
         android:text="Ideales Gewicht berechnen" />
 
     <TextView
@@ -80,8 +80,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="25dp"
-        android:background="#723DCF"
+        android:background="@color/white"
         android:gravity="center_horizontal"
+        android:textColor="#7645CD"
         android:textSize="20sp" />
 
 </LinearLayout>

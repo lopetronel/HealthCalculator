@@ -7,6 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * Autor:@Leon Lopetrone
+ * Version: 1.0
+ * Date: 07.07.2022
+ */
 
 public class MainActivity extends AppCompatActivity {
     private Button bmibtn;
@@ -18,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+/**
+ * Weiterleitung auf die MainActivity2
+ * (BMI Calculator)
+ */
+
         bmibtn = findViewById(R.id.bmicalc);
         bmibtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+/**
+ * Weiterleitung auf die MainActivity4
+ * (Ideal Weight Calculator)
+ */
+
         weightbtn = findViewById(R.id.idealcalc);
         weightbtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +48,11 @@ public class MainActivity extends AppCompatActivity {
                 openIdealCalculator();
             }
         });
+
+/**
+ * Weiterleitung auf die MainActivity3
+ * (Body Fat Calculator)
+ */
 
         fatbtn = findViewById(R.id.fatcalc);
         fatbtn.setOnClickListener(new View.OnClickListener() {
@@ -43,6 +63,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+/**
+* Intent Methoden für alle 3 Buttons
+* inklusive custom animationen (anim)
+*/
+
         public void openBmiCalculator(){
             Intent intent = new Intent(MainActivity.this, MainActivity2.class);
             startActivity(intent);

@@ -11,6 +11,11 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+/**
+ * Autor:@Leon Lopetrone
+ * Version: 1.0
+ * Date: 07.07.2022
+ */
 
 public class MainActivity2 extends AppCompatActivity {
 
@@ -23,11 +28,14 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        height = (EditText) findViewById(R.id.height);
-        weight = (EditText) findViewById(R.id.weight);
+        height = (EditText) findViewById(R.id.bmilol);
+        weight = (EditText) findViewById(R.id.age);
         result = (TextView) findViewById(R.id.result);
         function = (TextView) findViewById(R.id.function);
 
+/**
+ * Sensor Manager Integration
+ */
 
         SensorManager sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
 
@@ -68,6 +76,10 @@ public class MainActivity2 extends AppCompatActivity {
 
     }
 
+/**
+* Methode zur Berechnung von BMI
+*/
+
     public void calculateBMI(View v) {
         String heightStr = height.getText().toString();
         String weightStr = weight.getText().toString();
@@ -82,6 +94,11 @@ public class MainActivity2 extends AppCompatActivity {
             displayBMI(bmi);
         }
     }
+
+/**
+* Methode zur Darstellung der Daten
+* inklusive Eingrenzungsbereich
+*/
 
     private void displayBMI(float bmi) {
         String bmiLabel = "";

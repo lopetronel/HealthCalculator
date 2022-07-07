@@ -16,7 +16,7 @@
         android:textSize="20sp"/>
 
     <EditText
-        android:id="@+id/weight"
+        android:id="@+id/age"
         android:hint="in kg (zb. 80)"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,7 +36,7 @@
         android:textSize="20sp"/>
 
     <EditText
-        android:id="@+id/height"
+        android:id="@+id/bmilol"
         android:layout_width="wrap_content"
         android:hint="in cm (zb. 180)"
         android:layout_height="wrap_content"
@@ -81,8 +81,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="25dp"
-        android:background="#723DCF"
+        android:background="@color/white"
         android:gravity="center_horizontal"
+        android:textColor="#7545CC"
         android:textSize="20sp" />
 
 </LinearLayout>

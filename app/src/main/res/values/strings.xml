@@ -1,7 +1,12 @@
 <resources>
+/**
+* Hier sind jegliche Stings abgespeichert welche im Verlauf der App verwendet werden
+*/
+
     <string name="app_name">HealthCalculator</string>
     <string name="weight">Weight</string>
     <string name="height">Height</string>
+    <string name="age">Alter</string>
 
     <string name="sehr_stark_untergewichtig">Sehr stark untergewichtig</string>
     <string name="stark_untergewichtig">Stark untergewichtig</string>
@@ -13,4 +18,10 @@
     <string name="uebergewichtsklasse_iii">Übergewichtsklasse 3 (Sehr stark Übergewichtig)</string>
 
     <string name="BMI">BMI</string>
+
+    <string name="klasse1">50-55kg</string>
+    <string name="klasse2">55-65kg</string>
+    <string name="klasse3">65-80kg</string>
+    <string name="klasse4">80-90kg</string>
+    <string name="klasse5">95kg</string>
 </resources>

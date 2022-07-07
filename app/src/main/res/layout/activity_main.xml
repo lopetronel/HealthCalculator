@@ -14,6 +14,7 @@
         android:fontFamily="@font/anton"
         android:gravity="center"
         android:text="Willkommen beim HealthCalculator!"
+        android:textColor="#6436B5"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
