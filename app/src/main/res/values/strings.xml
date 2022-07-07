@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HealthCalculator</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+
+    <string name="sehr_stark_untergewichtig">Sehr stark untergewichtig</string>
+    <string name="stark_untergewichtig">Stark untergewichtig</string>
+    <string name="untergewichtig">untergewichtig</string>
+    <string name="normal">Normal</string>
+    <string name="uebergewichtig">Übergewichtig</string>
+    <string name="uebergewichtsklasse_i">Übergewichtsklasse 1 (Einigermassen Übergewichtig)</string>
+    <string name="uebergewichtsklasse_ii">Übergewichtsklasse 2 (stark Übergewichtig)</string>
+    <string name="uebergewichtsklasse_iii">Übergewichtsklasse 3 (Sehr stark Übergewichtig)</string>
+
+    <string name="BMI">BMI</string>
+</resources>
