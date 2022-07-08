@@ -16,6 +16,8 @@ import android.widget.TextView;
  * Version: 1.0
  * Date: 07.07.2022
  * Code inspired by https://www.youtube.com/watch?v=WbYQN5rRqUQ
+ *
+ * Diese Klasse dient zum berechnen des BMI und dessen Darstellung
  */
 
 public class MainActivity2 extends AppCompatActivity {

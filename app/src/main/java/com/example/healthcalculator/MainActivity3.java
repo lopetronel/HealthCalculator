@@ -15,6 +15,8 @@ import android.widget.TextView;
  * Autor:@Leon Lopetrone
  * Version: 1.0
  * Date: 07.07.2022
+ *
+ * Diese Klasse dient zum berechnen des Body Fat percentage und dessen Darstellung
  */
 
 public class MainActivity3 extends AppCompatActivity {

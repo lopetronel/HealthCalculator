@@ -11,7 +11,10 @@ import android.widget.Button;
  * Autor:@Leon Lopetrone
  * Version: 1.0
  * Date: 07.07.2022
- * Programm welches mit Hilfe von Formeln
+ * Programm welches mit Hilfe von Formeln den BMI, Body Fat percentage und Ideales Gewicht
+ * berechnet.
+ *
+ * Diese Klasse dient zum Aufrufen der einzelnen Views
  */
 
 public class MainActivity extends AppCompatActivity {
