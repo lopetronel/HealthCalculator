@@ -15,6 +15,7 @@ import android.widget.TextView;
  * Autor:@Leon Lopetrone
  * Version: 1.0
  * Date: 07.07.2022
+ * Code inspired by https://www.youtube.com/watch?v=WbYQN5rRqUQ
  */
 
 public class MainActivity2 extends AppCompatActivity {
